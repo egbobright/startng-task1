@@ -1,0 +1,43 @@
+:root{
+--header-color:yellow;
+--first-heading-color:grey;
+--font-selection: Arial, Helvetica, sans-serif;
+--space-between:0 auto;
+}
+
+body{
+    margin-left:25px;
+background-color:#DCDCDC;
+
+}
+h1{
+    font-size:40px;
+    text-align:center;
+    font-family:var(--font-selection);
+    height:10px;
+}
+
+h5{
+    text-align:center;
+    font-family:var(--font-selection); 
+    margin:var(--space-between);
+ }
+
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color:goldenrod;
+}
+a:visited{
+    color:rgb(0, 204, 255);
+}
+img{
+    width:100px;
+    height:100px;
+}
+p{
+    margin:var(--space-between);
+    padding-bottom:5px;
+}
